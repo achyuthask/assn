@@ -1,0 +1,30 @@
+#header{
+    margin: 0px;
+
+}
+.header{
+  justify-content: space-between;
+}
+    
+/* Sidebar */
+.mainBody {
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 230px;
+    background-color: white;
+    overflow-y: scroll;
+  
+  }
+  .videos{
+    margin-top: -700px;
+    float: right;
+
+  
+  }
+  
+ 

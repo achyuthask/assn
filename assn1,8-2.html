@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+   <body bgcolor="lightgreen">
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: greenyellow;
+        }
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Add padding to containers */
+        .container {
+          padding: 16px;
+          background-color: white;
+        }
+        
+        /* Full-width input fields */
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus {
+          background-color: #ddd;
+          outline: none;
+        }
+        
+        /* Overwrite default styles of hr */
+        hr {
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+        }
+        
+        /* Set a style for the submit button */
+        .submitbtn {
+          background-color: #04AA6D;
+          color: white;
+          padding: 16px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+          opacity: 0.9;
+        }
+        
+        .submitbtn:hover {
+          opacity: 1;
+        }
+        
+        /* Add a blue text color to links */
+        a {
+          color: dodgerblue;
+        }
+        
+        /* Set a grey background color and center the text of the "sign in" section */
+        .signin {
+          background-color: #f1f1f1;
+          text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:Tomato;">geekster ADMISSION FORM</h1>
+        <form>
+        <div class="container">
+        <label="FULL NAME"><b>FULL NAME</b></label>
+         <input type="text" placeholder="ENTER FULL NAME" name="user_name" required>
+          <label for="EMAIL"><b>EMAIL</b></label>
+         <input type="email" placeholder="ENTER EMAIL" name="user_email"required><br><br><br>
+        <div>
+         <h3>  <label > course : </label></h3>
+         <select>
+             <option value="">select course</option>
+    
+            <option value="full stack web devlopment">full stack web devlopment</option>
+             <option value="java devlopment">java devlopment</option>
+         </select>
+
+         </div><br><br>
+          
+         <label="phone*"<b>phone*</b></label>
+         <input type="number" placeholder="enter mobile number" name="user_number"required></B><br><br>
+        <div> <h3><label>Highest degree :</label></h3>
+         <h3><select>
+             <option value=""></option>
+             <option value="b.e orb.tech cs/it">b.e orb.tech cs/it</option>
+             <option value="b.e orb.tch other">b.e orb.tch other</option>
+             <option value="m.s or m.tech">m.s or m.tech</option>
+             <option value="bca or mca">bca or mca</option>
+             <option value="others">others</option>
+         </select></h3>
+        </div>
+        <div>
+            <h3>
+                <label>year of completion :</label></h3>
+                <h3>
+                    <select>
+                        <option value=""></option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        
+                    </select>
+                </h3>
+        </div>
+          <div>
+              <h3>
+                  <label>skills :</label> </h3>
+                  <h3>
+                      <select>
+                          <option value=""></option>
+                          <option value="no programig skills">no programig skills</option>
+                          <option value="low programig skills">low programig skills</option>
+                          <option value="intermediate programig skills">intermediate programig skills</option>
+                          <option value="high programing skills">high programing skills</option>
+                      </select>
+                  </h3>
+          </div>
+          <input type="checkbox"><b>By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.</b><br><br><br>
+         <button type="submit">submit</button>
+        </div>
+        </form>
+        </body>
+
+
+</html>

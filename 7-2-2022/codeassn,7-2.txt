@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <body bgcolor="lightgreen">
+        
+      <h1>  COLLEGE ADMISSION FORM </h1>
+    </head>
+
+    <hr>
+
+    <body>
+  
+        <h1>ADMISSION FORM</h1>
+
+        <h3>fill your admission details</h3>
+        <hr>
+        <form>  
+            <div class="container">  
+              
+         <p>
+            <label> Firstname </label>   <br>
+          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   <br>
+         </p>
+        
+         <p>                               
+          <label> Lastname: </label>   <br> 
+          <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+         </p>
+
+         <p>
+          <div>  
+          <label>   
+          Course :  
+          </label>   <br>
+            
+          <select>  
+          <option value="Course">Course</option>
+          <option value="BCA">BCA</option>  
+          <option value="BBA">BBA</option>  
+          <option value="B.Tech">B.Tech</option>  
+          <option value="MBA">MBA</option>  
+          <option value="MCA">MCA</option>  
+          <option value="M.Tech">M.Tech</option>  
+          </select>  
+          </div>  </p>
+         
+         
+         <p>
+         <div>  
+          <label>   
+          Gender :  
+          </label>  <br>  
+          <input type="radio" value="Male" name="gender"  > Male   
+          <input type="radio" value="Female" name="gender"> Female   
+          <input type="radio" value="Other" name="gender"> Other  
+            
+          </div>  
+         </p>
+
+
+         <p>
+          <label>   
+          Phone :  
+          </label>  <br>
+          <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+          <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+         </p>
+         
+         <p>
+          Current Address :  <br>
+          <textarea cols="80" rows="2" placeholder="Current Address" value="address" required>  
+          </textarea>  </p>
+
+          <p>
+           <label for="email"><b>Email</b></label>  <br>
+           <input type="text" placeholder="Enter Email" name="email" required>  
+           </p>
+           
+           
+           <p><br>
+              <label for="psw"><b>Password</b></label> <br> 
+              <input type="password" placeholder="Enter Password" name="psw" required>  
+              
+             <br> <button type="submit" class="registerbtn">Register</button> </p>   
+          </form>  
+  
+    </body>
+</html>

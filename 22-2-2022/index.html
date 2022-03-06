@@ -1,0 +1,126 @@
+
+<html>
+
+<head>
+
+    
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        body {
+        
+            margin: 0;
+            padding: 10px;
+        }
+
+        .dropdown {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 100px;
+            background-color: #0abf53;
+        }
+
+        .dropdown li {
+            position: relative;
+        }
+
+        .dropdown li a {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+
+        .dropdown li ul {
+            position: absolute;
+            top: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: none;
+            line-height: normal;
+            background-color: rgb(58, 178, 248);
+        }
+
+        .dropdown li ul li a {
+            text-align: left;
+            color: whitesmoke;
+            font-size: 14px;
+            padding: 10px;
+            display: block;
+            white-space: nowrap;
+        }
+
+        .dropdown li ul li a:hover {
+            background-color: rgb(5, 182, 5);
+            color: aliceblue;
+        }
+
+        .dropdown li ul li ul {
+            left: 100%;
+            top: 0;
+        }
+
+        ul li:hover>a {
+            background-color: rgb(5, 182, 5);
+            color: white;
+        }
+
+        ul li:hover>ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="dropdown">
+        <li><a href="#">Menu</a>
+            <ul>
+                <li><a href="#">Nice Dropdown Menu</a>
+                    <ul>
+                        <li><a href="">ooha - 1</a></li>
+                        <li><a href="">ooha - 2</a></li>
+                        <li><a href="">ooha - 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">aaha - 1</a>
+                    <ul>
+                        <li><a href="">ooha - 1</a></li>
+                        <li><a href="">ooha - 2</a></li>
+                        <li><a href="">ooha - 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">nnha</a>
+                    <ul>
+                        <li><a href="">aaha - 1</a></li>
+                        <li><a href="">aaha - 2</a></li>
+                        <li><a href="#">nnha</a>
+                            <ul>
+                                <li><a href="">ooha - 1</a></li>
+                                <li><a href="">ooha - 2</a></li>
+                                <li><a href="">ooha - 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">aaha - 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">aaha - 2</a>
+                
+                    <ul>
+                        <li><a href="">ooha - 1</a></li>
+                        <li><a href="">ooha - 2</a></li>
+                        <li><a href="">ooha - 3</a></li>
+                    </ul></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
